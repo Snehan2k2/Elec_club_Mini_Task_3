@@ -20,6 +20,10 @@ The motor driver has ENA and ENB pins (which is used to control the speed of the
 
 The 5V pin on the driver is connected to the Vin pin of Arduino, which powers it.
 
+**Algorithm** : 
+* evfb
+
+
 
 
 
