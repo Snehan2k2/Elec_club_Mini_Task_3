@@ -21,7 +21,7 @@ The motor driver has ENA and ENB pins (which is used to control the speed of the
 The 5V pin on the driver is connected to the Vin pin of Arduino, which powers it.
 
 **Algorithm** : 
-* evfb
+* PID algorithm: This is to ensure that the motion of the bot is straight and it makes sure that it stops at the next square momentarily
 
 
 
