@@ -10,6 +10,8 @@ The components used in the bot are:
 
 **Sensors** : 3 Ultrasonic sensors HC-SR 04 (One in the front and two on the sides)
 
+The sensor detects the presence of wall in the three directions
+
 **Motors** : 12V DC motors are used
 
 **Motor driver** : L298N dual H-bridge motor controller (This is used to control both the motors)
