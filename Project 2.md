@@ -6,6 +6,8 @@ This is a closed loop control system
 
 *We need to figure out ways to connect 19 IMUs to the MCU (say Arduino UNO):*
 
+**About MPU-6050**:
+
 The IMU used is MPU-6050.
 The IMU sensor works based on I2C communivation.
 
