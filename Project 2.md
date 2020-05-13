@@ -36,7 +36,7 @@ We will need 19 Arduino pins to connect to the AD0 pins of the IMU. But, we have
 
 This expansion board gives as an additional 40 GPIO pins and is connected to the arduino by I2C communication. Now, we are well off for the number of GPIO pins we need i.e 19.
 
-* Using **I2C Multiplexer TCA9548A**: 
+* Using **I2C Multiplexer - TCA9548A**: 
 
 The mutiplexer has 3 analog pins A0,A1,A2 and it has 8 channels, each channel containing two pins- SCL and SDA. The three analog pins are connected to three digital pins on Arduino, and each channel to the IMU sensor. So, each possibility on the configuration of analog pins if it's HIGH or LOW corresponds to a channel on the MUX.
 
