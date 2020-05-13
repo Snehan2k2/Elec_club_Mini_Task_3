@@ -4,7 +4,7 @@ The components used in the bot are:
 
 **Power** : 9V battery
 
-**Chassis** : Made from General Purpose Circuit Board
+**Chassis** : Made from General Purpose Circuit Board with 8mm diameter wheels
 
 **Wiring** : Jumpers ( both male to male and male to female )
 
@@ -22,7 +22,7 @@ The 5V pin on the driver is connected to the Vin pin of Arduino, which powers it
 
 **Algorithm** : 
 * PID algorithm: This is to ensure that the motion of the bot is straight and it makes sure that it stops at the next square momentarily
-
+* Flood fill algorithm
 
 
 
