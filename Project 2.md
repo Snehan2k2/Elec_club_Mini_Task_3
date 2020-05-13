@@ -24,7 +24,9 @@ The solutions I have found so far:
 
 This would solve the purpose as using different IMUs would give us different addresses, thus eliminating our problem. But, it is hard to find 19 different types of IMU sensors.
 
-*
+* *The trick*:
+
+The trick is to put all the IMUs on the I2C bus, and connect IMU's AD0 pin to a seperate digital pin on the Arduino. The crux is, when you want to read from a specific IMU, set all AD0s to HIGH, except the one you want to read to LOW. All the IMUs with AD0s set to HIGH will have an address of 0x69, whereas the only one on LOW will have an address of 0x68. Thus, now we are able to differentiate the IMU from which we want to read values from, and the rest.
 
 
 
