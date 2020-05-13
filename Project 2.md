@@ -14,6 +14,8 @@ The SCL pin on sensor is connected to the SCL pin on Arduino (which is the analo
 
 Each type of an IMU sensor has an unique address, when AD0 pin is set to HIGH, it will have an I2C address of 0x69, whereas when the AD0 is set to LOW, it will have an address of 0x68.
 
+**The Problem :** *Connecting multiple I2C sensors with same address*
+
 
 
 
