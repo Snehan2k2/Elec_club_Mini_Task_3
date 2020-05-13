@@ -12,7 +12,7 @@ The components used in the bot are:
 
 The sensor detects the presence of wall in the three directions
 
-**Motors** : 12V DC motors are used
+**Motors** : 2 12V DC motors are used
 
 **Motor driver** : L298N dual H-bridge motor controller (This is used to control both the motors)
 
