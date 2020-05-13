@@ -14,9 +14,16 @@ The IMU sensor works based on I2C communivation.
 The sensor has VCC, GND, SCL (Serial Clock Line), SDA (Serial Data Address) and AD0 pin primarily.
 The SCL pin on sensor is connected to the SCL pin on Arduino (which is the analog pin A5), SDA pin on sensor is connected to the SDA pin on Arduino (which is the analog pin A4).
 
-Each type of an IMU sensor has an unique address, when AD0 pin is set to HIGH, it will have an I2C address of 0x69, whereas when the AD0 is set to LOW, it will have an address of 0x68.
+Each type of an IMU sensor has an unique address, when AD0 pin is set to HIGH, it will have an I2C address of 0x69, whereas when the AD0 is set to LOW or when it is not connected, it will have an address of 0x68.
 
-**The Problem : Connecting multiple I2C sensors with same address**
+**The Problem : Connecting multiple I2C sensors with SAME address**
+
+The solutions I have found so far:
+
+* Using different types of MCUs:
+This would solve the purpose as using different IMUs would give us different addresses, thus eliminating our problem. But, it is hard to find 19 different types of IMU sensors.
+
+*
 
 
 
