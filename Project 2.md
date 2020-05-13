@@ -4,8 +4,9 @@ Input from IMU's + Other Data ==> RL Model ==> Outputs - ( Motor values )  ==> A
 
 This is a closed loop control system
 
-We need to figure out ways to connect 19 IMUs to the MCU (say Arduino UNO)
-
+We need to figure out ways to connect 19 IMUs to the MCU (say Arduino UNO).
+The IMU used is MPU-6050.
 The IMU sensor works based on I2C communivation.
+
 
 
