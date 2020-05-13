@@ -34,9 +34,9 @@ We will need 19 Arduino pins to connect to the AD0 pins of the IMU. But, we have
 
 So, the thing is we can use a **GPIO I2C expander - PCA9698**:
 
-This expansion board gives as an additional 40 GPIO pins and is connected to the arduino by I2C communication. Now, we are well off for the number of GPIO pins we need i.e 19.
+* This expansion board gives as an additional 40 GPIO pins and is connected to the arduino by I2C communication. Now, we are well off for the number of GPIO pins we need i.e 19.
 
-* 
+
 
 
 
