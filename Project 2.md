@@ -20,7 +20,8 @@ Each type of an IMU sensor has an unique address, when AD0 pin is set to HIGH, i
 
 The solutions I have found so far:
 
-* Using different types of MCUs:
+* *Using different types of MCUs*:
+
 This would solve the purpose as using different IMUs would give us different addresses, thus eliminating our problem. But, it is hard to find 19 different types of IMU sensors.
 
 *
