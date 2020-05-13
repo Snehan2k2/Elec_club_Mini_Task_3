@@ -13,7 +13,7 @@ The circuit diagram is:
 
 ![](http://elonics.in/sites/default/files/inline-images/touch-switch-circuit-using-transistor-schematic.png)
 
-So, the point is that the touch probes get touched, when the ring is put on, thus lighting up the LED. When the ring is off the hand, the LED doesnt glow. 
+So, the point is that the touch probes get touched, when the ring is put on, thus lighting up the LED. When the ring is off the finger, the LED doesnt glow. 
 
 
 
